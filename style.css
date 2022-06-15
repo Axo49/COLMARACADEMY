@@ -93,6 +93,17 @@ html {
 .p32 {
     padding: 32px 0px!important;
 }
+.vp {
+    padding-left: 24px!important;
+    padding-right: 24px!important;
+}
+.epp {
+    padding-top: 24px!important;
+    padding-bottom: 8px!important;
+}
+.ebp {
+    padding-bottom: 32px!important;
+}
 
 /* This is footer part  */
 .footer {
