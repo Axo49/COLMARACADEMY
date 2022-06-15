@@ -1,0 +1,100 @@
+/* Universal Style */
+html {
+    font-family:'Work Sans', sans-serif ;
+}
+.col-md-7 {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.col-md-5 {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.pleft24 {
+    padding-left: 24px!important;
+}
+.pright24 {
+    padding-right: 24px!important;
+}
+.mright24 {
+    margin-right: 24px!important;
+}
+.ptb32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+.p16 {
+    padding: 16px 16px!important;
+}
+.col-md-8 {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.col-md-4 {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.ml16 {
+    margin-left: 16px!important;
+}
+.pic-3-col {
+    padding-top: 16px!important;
+    padding-bottom: 32px!important;
+}
+
+/* NavBar Style */
+.nav {
+    padding: 0px!important;
+    margin: 0px!important;
+    height: 64px;
+}
+.navitem {
+    padding-left: 16px!important;
+    padding-right: 0px!important;
+    margin: 0px!important;
+}
+.logo {
+    height: 32px!important;
+}
+.btnp {
+    padding: 8px 120px!important;
+    
+}
+
+/* Practicing part CSS */
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+
+/* Start Learning CSS */
+.GP {
+    padding: 32px 72px!important;
+}
+.p32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    padding-right: 32px!important;
+    padding-left: 0px!important;
+}
+.pb32 {
+    padding-right: 32px;
+    padding-bottom: 32px!important;
+    padding-left: 0px!important;
+}
+.p-card {
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+/* This is exhibit part  */
+.p32 {
+    padding: 32px 0px!important;
+}
+
+/* This is footer part  */
+.footer {
+    padding: 16px 24px;
+}
