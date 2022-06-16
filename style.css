@@ -60,13 +60,18 @@ html {
     padding: 8px 120px!important;
     
 }
-
+@media only screen and (max-width: 600px) {
+    .desktop-header {
+        display: none;
+    }
+    .mobile-header {
+        display: flex!important;
+        align-items: center!important;
+        height: 64px!important;
+        justify-content: space-around!important;
+    }
+}
 /* Practicing part CSS */
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-  }
 
 /* Start Learning CSS */
 .GP {
