@@ -57,9 +57,18 @@ html {
     height: 32px!important;
 }
 .btnp {
-    padding: 8px 120px!important;
-    
+    display: flex;
+    width :100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px!;  
 }
+@media only screen and (min-width: 992px) {
+    .rowintro {
+        padding-right: 50px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .desktop-header {
         display: none;
@@ -72,7 +81,26 @@ html {
     }
 }
 /* Practicing part CSS */
-
+@media only screen and (max-width: 600px) {
+    .lsnt {
+        padding: 32px 16px!important;
+        display: block!important;
+        justify-items: space-around!important;
+    }
+    .lsnt h1 {
+        padding-bottom: 32px!important;
+    }
+    .lsnt p {
+        padding-bottom: 24px!important;
+    }
+    .rowintro {
+        padding-top: 0px!important;
+    }
+    .pictro {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}
 /* Start Learning CSS */
 .GP {
     padding: 32px 72px!important;
@@ -94,6 +122,38 @@ html {
     padding-left: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+    .card-body1 {
+        padding-left: 16px!important;
+        padding-bottom: 64px!important;
+    }
+    .ppic {
+        padding-bottom: 32px!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mh1 {
+        padding-bottom: 16px!important;
+    }
+    .mbtnp {
+        padding-top:0px!important ;
+
+    }
+    .btnc {
+        padding-top: 16px!important;
+        padding-left: 16px!important;
+        padding-bottom: 24px!important;
+        margin-bottom: 8px!important;
+    }
+    .btnc6 {
+        padding-top: 16px!important;
+        padding-left: 16px!important;
+        padding-bottom: 24px!important;
+        margin-bottom: 32px!important;
+    }
+}
+
 /* This is exhibit part  */
 .p32 {
     padding: 32px 0px!important;
@@ -109,8 +169,21 @@ html {
 .ebp {
     padding-bottom: 32px!important;
 }
-
+@media only screen and (max-width: 600px) {
+    .eh1 {
+        padding-top: 32px!important;
+        padding-bottom: 16px!important;
+    }
+    .ebp {
+        padding-bottom: 24px!important;
+    }
+}
 /* This is footer part  */
 .footer {
     padding: 16px 24px;
+}
+@media only screen and (max-width: 600px) {
+    .ftp {
+        display: none;
+    }
 }
